@@ -1,32 +1,6 @@
 @import './styles/classes.css'; /* do not remove */
 @import './styles/base.css'; /* do not remove */
 
-@media screen and (min-width: 800px) {
-    header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-    header > div {
-        display: grid;
-        grid-template-rows: max-content max-content;
-    }
-    header > div > div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2em;
-    }
-    #flexbox {
-        display: flex;
-        flex-direction: column;
-    }
-    #grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2em;
-    }
-}
-
 /*
     REQUIREMENTS
     ------------
